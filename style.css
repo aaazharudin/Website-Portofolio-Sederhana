@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Halaman CSS website portofolio sederhana */
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: nunito, sans-serif, arial;
+  color: #555555;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.container {
+  margin: auto;
+}
+
+.nav {
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .contact a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.contact {
+  margin-right: 70px;
+}
+
+.nav .contact a:hover {
+  color: blue;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav ul li a {
+  font-size: 20px;
+  color: #555555;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.nav ul li a:hover {
+  color: rgb(52, 52, 214);
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main .left {
+  flex: 1;
+  padding: 20px;
+}
+
+.main .left h1 {
+  font-size: 32px;
+  color: #18b5ff;
+}
+
+.main .left h2 {
+  font-size: 87px;
+  padding: 5px;
+}
+
+.main .right {
+  flex: 1;
+  padding: 25px;
+}
+
+.main .right p {
+  font-size: 18px;
+  padding: 24px;
+}
+
+.main .right .konsul a {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.right li {
+  list-style: none;
+  padding-left: 25px;
+}
+
+.hero {
+  background-size: cover;
+  background-position: 0 -300px;
+  background-image: url(img/ok.png);
+  height: 350px;
+}
+
+.layanan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 25px;
+}
+
+.layanan .kotak {
+  border: 1px solid black;
+  padding: 15px;
+  width: 200px;
+  height: 390px;
+}
+
+.layanan .judul {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
