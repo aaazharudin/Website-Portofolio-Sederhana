@@ -260,3 +260,86 @@ body {
   font-size: 20px;
   padding-bottom: 20px;
 }
+
+.project {
+  display: flex;
+  padding: 20px;
+  gap: 150px;
+}
+
+.project .gambar {
+  margin-left: 130px;
+  height: 150px;
+  width: 1000px;
+  background-size: cover;
+  background-image: url(img/project.png);
+}
+
+.project .text {
+  margin-right: 100px;
+}
+
+.project .judul {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.project .konsul {
+  list-style: none;
+  padding-top: 10px;
+}
+
+.konsul a {
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.test {
+  margin: 30px;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.test h1 {
+  font-size: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testi .elips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testi .gambar {
+  border-radius: 0px;
+  height: 100px;
+  width: 100px;
+  background-image: url(img/ok.png);
+  background-size: cover;
+}
+
+.testi .elips P {
+  padding: 20px;
+}
+
+.footer {
+  font-size: small;
+  color: white;
+  background-color: black;
+}
+
+.footer .copy {
+  text-align: center;
+  padding: 20px;
+}
